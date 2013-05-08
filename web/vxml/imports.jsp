@@ -22,9 +22,10 @@
 <%@ page import="java.net.*" %>
 
 <%@ page import="org.voxmail.*" %>
-<%@ page import="org.voxmail.db.*" %>
+<%@ page import="org.voxmail.service.*" %>
 <%@ page import="org.voxmail.mail.*" %>
 <%@ page import="org.voxmail.model.*" %>
 <%@ page import="org.voxmail.struts.*" %>
 <%@ page import="org.voxmail.utils.*" %>
+<%@ page import="org.voxmail.struts.*" %>
 <%@ page import="org.voxmail.struts.action.*" %>
