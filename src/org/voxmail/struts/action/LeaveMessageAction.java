@@ -298,8 +298,7 @@ public class LeaveMessageAction extends Action {
                         System.out.println("File is not null");
                         
                         String timeStamp = new SimpleDateFormat("yyyy-MM-dd_kk,mm,S").format(new Date());
-                        String realPath = request.getRealPath(filePath_Messages);
-                        String myPath = realPath + File.separator;
+                        String myPath = filePath_Messages + File.separator;
                         String myFileName = mailboxId + "." + audioFileName + "." + timeStamp;
 
                         //test directory
